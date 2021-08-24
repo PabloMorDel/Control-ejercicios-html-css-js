@@ -1,0 +1,28 @@
+fieldset {
+    background-color: rgb(200, 200, 200);
+    width: 50%;
+    max-width: 800px;
+    min-width: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+fieldset:hover {
+    background-color: rgb(150, 150, 150);
+}
+
+input:required {
+    border-color: salmon;
+}
+
+fieldset:first-child,
+fieldset:last-child {
+    border-bottom-color: black;
+    border-bottom-width: 5px;
+}
+
+button {
+    background-color: black;
+    border: none;
+    color: white;
+}

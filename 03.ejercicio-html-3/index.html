@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ejercicio HTML 1</title>
+        <link rel="stylesheet" href="/03.ejercicio-html-3/style.css" />
+    </head>
+
+    <body>
+        <form action="index.html" method="get">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for="Name">
+                    Nombre
+                    <input type="text" required autofocus />
+                </label>
+                <label for="email">
+                    email
+                    <input type="email" required />
+                </label>
+                <label for="URL">
+                    URL
+                    <input
+                        type="text"
+                        placeholder="Escribe la URL de tu página web personal"
+                    />
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Fecha</legend>
+
+                <label for="date">
+                    Fecha
+                    <input type="date" />
+                </label>
+                <label for="time">
+                    Hora
+                    <input type="time" />
+                </label>
+                <label for="datetime">
+                    Fecha y Hora
+                    <input type="datetime" />
+                </label>
+                <label for="month">
+                    Mes
+                    <input type="month" />
+                </label>
+                <label for="week">
+                    Semana
+                    <input type="week" />
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Datos Contacto</legend>
+                <label for="number">
+                    Numero
+                    <input type="number" min="-10" max="10" />
+                </label>
+                <label for="phone">
+                    Telefono
+                    <input type="tel" placeholder="900111222333" readonly />
+                </label>
+                <label for="search">
+                    Busqueda
+                    <input type="search" readonly />
+                </label>
+                <label for="color">
+                    Color
+                    <input type="color" />
+                </label>
+                <button>Enviar</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
